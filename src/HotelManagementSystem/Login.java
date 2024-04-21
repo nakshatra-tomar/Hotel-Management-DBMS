@@ -1,7 +1,5 @@
 package HotelManagementSystem;
 
-import HotelManagementSystem.con;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -74,7 +72,7 @@ public class Login extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == b1){
             try{
-            con c = new con();
+            conn c = new conn();
             String user = textField1.getText();
             String pass = passwordField1.getText();
 
