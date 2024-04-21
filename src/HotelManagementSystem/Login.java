@@ -1,4 +1,6 @@
-package Hotel.Management.System;
+package HotelManagementSystem;
+
+import HotelManagementSystem.con;
 
 import javax.swing.*;
 import java.awt.*;
@@ -71,9 +73,26 @@ public class Login extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == b1){
+            try{
+            con c = new con();
+            String user = textField1.getText();
+            String pass = passwordField1.getText();
+
+            String q = "select * from login where username = '"+user+"' and password = '"+pass+"'";
+            ResultSet resultSet = c.statement.executeQuery(q);
+            if (resultSet.next()){
+
+                setVisible(false);
+            }else {
+                JOptionPane.showMessageDialog(null,"Invalid");
+            }
+
+        }catch (Exception E){
+            E.printStackTrace();
+        }
 
 
-        }else {
+    }else {
             System.exit(102);
         }
     }
