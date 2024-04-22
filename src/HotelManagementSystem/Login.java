@@ -40,7 +40,9 @@ public class Login extends JFrame implements ActionListener {
 
         ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/splash.png"));
         Image i1 = imageIcon.getImage().getScaledInstance(255,300,Image.SCALE_DEFAULT);
-        JLabel label = new JLabel(imageIcon);
+
+        ImageIcon scaledIcon = new ImageIcon(i1);
+        JLabel label = new JLabel(scaledIcon);
         label.setBounds(318,-30,255,300);
         add(label);
 
@@ -79,7 +81,7 @@ public class Login extends JFrame implements ActionListener {
             String q = "select * from login where username = '"+user+"' and password = '"+pass+"'";
             ResultSet resultSet = c.statement.executeQuery(q);
             if (resultSet.next()){
-
+                new Dashboard();
                 setVisible(false);
             }else {
                 JOptionPane.showMessageDialog(null,"Invalid");
