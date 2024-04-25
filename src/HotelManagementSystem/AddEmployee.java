@@ -26,7 +26,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(name);
         nameText = new JTextField();
         nameText.setBounds(200,30,150,27);
-        nameText.setBackground(new Color(16,108,115));
+        nameText.setBackground(new Color(79, 79, 79));
         nameText.setFont(new Font("Tahoma", Font.BOLD,14));
         nameText.setForeground(Color.WHITE);
         panel.add(nameText);
@@ -38,7 +38,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(Age);
         ageText = new JTextField();
         ageText.setBounds(200,80,150,27);
-        ageText.setBackground(new Color(16,108,115));
+        ageText.setBackground(new Color(79, 79, 79));
         ageText.setFont(new Font("Tahoma", Font.BOLD,14));
         ageText.setForeground(Color.WHITE);
         panel.add(ageText);
@@ -58,7 +58,7 @@ public class AddEmployee extends JFrame implements ActionListener {
 
         radioButtonF = new JRadioButton("Female");
         radioButtonF.setBounds(280,120,100,27);
-        radioButtonF.setBackground(new Color(3,45,48));
+        radioButtonF.setBackground(new Color(44, 44, 44));
         radioButtonF.setFont(new Font("Tahoma", Font.BOLD,14));
         radioButtonF.setForeground(Color.WHITE);
         panel.add(radioButtonF);
@@ -70,7 +70,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(job);
 
         comboBox = new JComboBox(new String[]{"Front Desk", "Housekeeping", "Kitchen Staff","Room Service", "Manager", "Accountant","Chef"});
-        comboBox.setBackground(new Color(16,108,115));
+        comboBox.setBackground(new Color(79, 79, 79));
         comboBox.setBounds(200,170,150,30);
         comboBox.setFont(new Font("Tahoma", Font.BOLD,14));
         comboBox.setForeground(Color.WHITE);
@@ -83,7 +83,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(salary);
         salaryText = new JTextField();
         salaryText.setBounds(200,220,150,27);
-        salaryText.setBackground(new Color(16,108,115));
+        salaryText.setBackground(new Color(79, 79, 79));
         salaryText.setFont(new Font("Tahoma", Font.BOLD,14));
         salaryText.setForeground(Color.WHITE);
         panel.add(salaryText);
@@ -95,7 +95,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(phone);
         phoneText = new JTextField();
         phoneText.setBounds(200,270,150,27);
-        phoneText.setBackground(new Color(16,108,115));
+        phoneText.setBackground(new Color(79, 79, 79));
         phoneText.setFont(new Font("Tahoma", Font.BOLD,14));
         phoneText.setForeground(Color.WHITE);
         panel.add(phoneText);
@@ -107,7 +107,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(aadhar);
         aadharText = new JTextField();
         aadharText.setBounds(200,320,150,27);
-        aadharText.setBackground(new Color(16,108,115));
+        aadharText.setBackground(new Color(79, 79, 79));
         aadharText.setFont(new Font("Tahoma", Font.BOLD,14));
         aadharText.setForeground(Color.WHITE);
         panel.add(aadharText);
@@ -119,7 +119,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         panel.add(email);
         emailText = new JTextField();
         emailText.setBounds(200,370,150,27);
-        emailText.setBackground(new Color(16,108,115));
+        emailText.setBackground(new Color(79, 79, 79));
         emailText.setFont(new Font("Tahoma", Font.BOLD,14));
         emailText.setForeground(Color.WHITE);
         panel.add(emailText);

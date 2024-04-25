@@ -14,7 +14,7 @@ public class addDriver extends JFrame implements ActionListener {
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,890,490);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         panel.setLayout(null);
         add(panel);
 
@@ -33,7 +33,7 @@ public class addDriver extends JFrame implements ActionListener {
         nameText.setBounds(174,70,156,20);
         nameText.setForeground(Color.WHITE);
         nameText.setFont(new Font("Tahoma",Font.BOLD,14));
-        nameText.setBackground(new Color(16,108,115));
+        nameText.setBackground(new Color(79, 79, 79));
         panel.add(nameText);
 
         JLabel age = new JLabel("Age");
@@ -45,7 +45,7 @@ public class addDriver extends JFrame implements ActionListener {
         ageText.setBounds(174,110,156,20);
         ageText.setForeground(Color.WHITE);
         ageText.setFont(new Font("Tahoma",Font.BOLD,14));
-        ageText.setBackground(new Color(16,108,115));
+        ageText.setBackground(new Color(79, 79, 79));
         panel.add(ageText);
 
         JLabel gender = new JLabel("Gender");
@@ -58,7 +58,7 @@ public class addDriver extends JFrame implements ActionListener {
         comboBox.setBounds(176,150,154,20);
         comboBox.setForeground(Color.WHITE);
         comboBox.setFont(new Font("Tahoma",Font.BOLD,14));
-        comboBox.setBackground(new Color(16,108,115));
+        comboBox.setBackground(new Color(79, 79, 79));
         panel.add(comboBox);
 
         JLabel carC = new JLabel("Car Company");
@@ -70,7 +70,7 @@ public class addDriver extends JFrame implements ActionListener {
         carCText.setBounds(174,190,156,20);
         carCText.setForeground(Color.WHITE);
         carCText.setFont(new Font("Tahoma",Font.BOLD,14));
-        carCText.setBackground(new Color(16,108,115));
+        carCText.setBackground(new Color(79, 79, 79));
         panel.add(carCText);
 
         JLabel carN = new JLabel("Car Name");
@@ -82,7 +82,7 @@ public class addDriver extends JFrame implements ActionListener {
         carNText.setBounds(174,230,156,20);
         carNText.setForeground(Color.WHITE);
         carNText.setFont(new Font("Tahoma",Font.BOLD,14));
-        carNText.setBackground(new Color(16,108,115));
+        carNText.setBackground(new Color(79, 79, 79));
         panel.add(carNText);
 
         JLabel available = new JLabel("Available");
@@ -94,7 +94,7 @@ public class addDriver extends JFrame implements ActionListener {
         comboBox1.setBounds(176,270,154,20);
         comboBox1.setForeground(Color.WHITE);
         comboBox1.setFont(new Font("Tahoma",Font.BOLD,14));
-        comboBox1.setBackground(new Color(16,108,115));
+        comboBox1.setBackground(new Color(79, 79, 79));
         panel.add(comboBox1);
 
         JLabel loc = new JLabel("Location");
@@ -106,7 +106,7 @@ public class addDriver extends JFrame implements ActionListener {
         locText.setBounds(174,310,156,20);
         locText.setForeground(Color.WHITE);
         locText.setFont(new Font("Tahoma",Font.BOLD,14));
-        locText.setBackground(new Color(16,108,115));
+        locText.setBackground(new Color(79, 79, 79));
         panel.add(locText);
 
         add = new JButton("ADD");

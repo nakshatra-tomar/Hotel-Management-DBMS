@@ -36,13 +36,13 @@ public class Login2 extends JFrame implements ActionListener {
         textField1.setBounds(150,50,150,30);
         textField1.setForeground(Color.WHITE);
         textField1.setFont(new Font("Tahoma", Font.PLAIN,15));
-        textField1.setBackground(new Color(26,104,110));
+        textField1.setBackground(new Color(79, 79, 79));
         add(textField1);
 
         passwordField1 = new JPasswordField();
         passwordField1.setBounds(150,100,150,30);
         passwordField1.setForeground(Color.WHITE);
-        passwordField1.setBackground(new Color(26,104,110));
+        passwordField1.setBackground(new Color(79, 79, 79));
         add(passwordField1);
 
         ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/splash.png"));

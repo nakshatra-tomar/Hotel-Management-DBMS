@@ -13,14 +13,14 @@ public class Employee extends JFrame {
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,990,590);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         panel.setLayout(null);
         add(panel);
 
         JTable table = new JTable();
         table.setBounds(10,34,980,450);
         table.setForeground(Color.WHITE);
-        table.setBackground(new Color(3,45,48));
+        table.setBackground(new Color(44, 44, 44));
         panel.add(table);
 
         try{

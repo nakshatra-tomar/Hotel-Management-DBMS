@@ -13,7 +13,7 @@ public class AddRoom extends JFrame implements ActionListener {
 
         JPanel panel = new JPanel();
         panel.setBounds(5,5,875,490);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44, 255));
         panel.setLayout(null);
         add(panel);
 
@@ -32,7 +32,7 @@ public class AddRoom extends JFrame implements ActionListener {
         t2.setBounds(200,70,156,20);
         t2.setFont(new Font("Tahoma", Font.PLAIN, 14));
         t2.setForeground(Color.WHITE);
-        t2.setBackground(new Color(16,108,115));
+        t2.setBackground(new Color(79, 79, 79));
         panel.add(t2);
 
         JLabel l3 = new JLabel("Availability");
@@ -45,7 +45,7 @@ public class AddRoom extends JFrame implements ActionListener {
         t3.setBounds(200,110,156,20);
         t3.setFont(new Font("Tahoma", Font.PLAIN, 14));
         t3.setForeground(Color.WHITE);
-        t3.setBackground(new Color(16,108,115));
+        t3.setBackground(new Color(79, 79, 79));
         panel.add(t3);
 
         JLabel l4 = new JLabel("Price");
@@ -58,7 +58,7 @@ public class AddRoom extends JFrame implements ActionListener {
         t4.setBounds(200,150,156,20);
         t4.setFont(new Font("Tahoma", Font.PLAIN, 14));
         t4.setForeground(Color.WHITE);
-        t4.setBackground(new Color(16,108,115));
+        t4.setBackground(new Color(79, 79, 79));
         panel.add(t4);
 
 
@@ -72,7 +72,7 @@ public class AddRoom extends JFrame implements ActionListener {
         t5.setBounds(200,190,156,20);
         t5.setFont(new Font("Tahoma", Font.PLAIN, 14));
         t5.setForeground(Color.WHITE);
-        t5.setBackground(new Color(16,108,115));
+        t5.setBackground(new Color(79, 79, 79));
         panel.add(t5);
 
         JLabel l6 = new JLabel("Bed Type");
@@ -85,7 +85,7 @@ public class AddRoom extends JFrame implements ActionListener {
         t6.setBounds(200,230,156,20);
         t6.setFont(new Font("Tahoma", Font.PLAIN, 14));
         t6.setForeground(Color.WHITE);
-        t6.setBackground(new Color(16,108,115));
+        t6.setBackground(new Color(79, 79, 79));
         panel.add(t6);
 
         b1 = new JButton("Add");

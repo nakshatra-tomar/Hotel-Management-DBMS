@@ -20,7 +20,7 @@ public class NewCustomer extends JFrame implements ActionListener {
         JPanel panel = new JPanel();
         panel.setBounds(5,5,840,540);
         panel.setLayout(null);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         add(panel);
 
         ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/customer.png"));
@@ -84,7 +84,7 @@ public class NewCustomer extends JFrame implements ActionListener {
         r2 = new JRadioButton("Female");
         r2.setFont(new Font("Tahoma", Font.BOLD, 14));
         r2.setForeground(Color.WHITE);
-        r2.setBackground(new Color(3,45,48));
+        r2.setBackground(new Color(44, 44, 44));
         r2.setBounds(350,191,80,12);
         panel.add(r2);
 
@@ -119,7 +119,7 @@ public class NewCustomer extends JFrame implements ActionListener {
         c1.setBounds(271,274,150,20);
         c1.setFont(new Font("Tahoma", Font.BOLD, 14));
         c1.setForeground(Color.WHITE);
-        c1.setBackground(new Color(3,45,48));
+        c1.setBackground(new Color(44, 44, 44));
         panel.add(c1);
 
         JLabel labelCIS = new JLabel("Checked-In :");

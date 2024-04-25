@@ -19,7 +19,7 @@ public class Department extends JFrame {
 
         JTable table = new JTable();
         table.setBounds(0,40,700,350);
-        table.setBackground(new Color(4,45,48));
+        table.setBackground(new Color(44, 44, 44));
         table.setForeground(Color.WHITE);
         panel.add(table);
 

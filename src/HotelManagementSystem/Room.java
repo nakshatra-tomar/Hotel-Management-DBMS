@@ -16,7 +16,7 @@ public class Room extends JFrame {
     Room(){
         JPanel panel = new JPanel();
         panel.setBounds(5,5,890,590);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         panel.setLayout(null);
         add(panel);
 

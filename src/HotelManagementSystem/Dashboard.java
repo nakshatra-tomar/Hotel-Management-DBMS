@@ -10,10 +10,12 @@ public class Dashboard extends JFrame implements ActionListener {
     Dashboard(){
         super("Hotel Management System");
 
+        getContentPane().setBackground(new Color(44, 44, 44));
+
         rec = new JButton("Reception");
         rec.setBounds(425,510,140,30);
         rec.setFont(new Font("Tahoma", Font.BOLD,15));
-        rec.setBackground(new Color(255,98,0));
+        rec.setBackground(new Color(79, 79, 79));
         rec.setForeground(Color.WHITE);
         rec.addActionListener(this);
         add(rec);
@@ -21,7 +23,7 @@ public class Dashboard extends JFrame implements ActionListener {
         add = new JButton("Admin");
         add.setBounds(880,510,140,30);
         add.setFont(new Font("Tahoma", Font.BOLD,15));
-        add.setBackground(new Color(255,98,0));
+        add.setBackground(new Color(79, 79, 79));
         add.setForeground(Color.WHITE);
         add.addActionListener(this);
         add(add);
@@ -40,12 +42,6 @@ public class Dashboard extends JFrame implements ActionListener {
         label11.setBounds(400,300,200,195);
         add(label11);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/background.png"));
-        Image i1 = imageIcon.getImage().getScaledInstance(1600,900, Image.SCALE_SMOOTH);
-        ImageIcon imageIcon1 = new ImageIcon(i1);
-        JLabel label = new JLabel(imageIcon1);
-        label.setBounds(0,0,1600,900);
-        add(label);
 
         setLayout(null);
         setSize(1920,1080);

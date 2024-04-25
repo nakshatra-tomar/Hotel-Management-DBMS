@@ -10,13 +10,13 @@ public class Reception extends JFrame {
         JPanel panel = new JPanel();
         panel.setLayout(null);
         panel.setBounds(280,5,1238,820);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         add(panel);
 
         JPanel panel1 = new JPanel();
         panel1.setLayout(null);
         panel1.setBounds(5,5,270,820);
-        panel1.setBackground(new Color(3,45,48));
+        panel1.setBackground(new Color(44, 44, 44));
         add(panel1);
 
         ImageIcon i111 = new ImageIcon(ClassLoader.getSystemResource("icon/splash.png"));
@@ -42,7 +42,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new NewCustomer();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -58,7 +58,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new Room();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -74,7 +74,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new Department();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -90,7 +90,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new Employee();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -106,7 +106,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new CustomerInfo();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -122,7 +122,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new ManagerInfo();
                 }catch (Exception E){
                     E.printStackTrace();
                 }
@@ -202,7 +202,7 @@ public class Reception extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-
+                    new SearchRoom();
                 }catch (Exception E){
                     E.printStackTrace();
                 }

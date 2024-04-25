@@ -16,7 +16,7 @@ public class SearchRoom extends JFrame implements ActionListener {
     JButton add, back;
     SearchRoom(){
         JPanel panel = new JPanel();
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         panel.setBounds(5,5,690,490);
         panel.setLayout(null);
         add(panel);
