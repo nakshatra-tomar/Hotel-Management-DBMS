@@ -12,7 +12,7 @@ import java.sql.ResultSetMetaData;
 public class Department extends JFrame {
     Department(){
         JPanel panel = new JPanel();
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44,44,44));
         panel.setBounds(5,5,690,490);
         panel.setLayout(null);
         add(panel);

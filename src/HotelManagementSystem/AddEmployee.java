@@ -16,7 +16,7 @@ public class AddEmployee extends JFrame implements ActionListener {
         JPanel panel = new JPanel();
         panel.setBounds(5,5,890,490);
         panel.setLayout(null);
-        panel.setBackground(new Color(3,45,48));
+        panel.setBackground(new Color(44, 44, 44));
         add(panel);
 
         JLabel name = new JLabel("Name");
@@ -51,7 +51,7 @@ public class AddEmployee extends JFrame implements ActionListener {
 
         radioButtonM = new JRadioButton("Male");
         radioButtonM.setBounds(200,120,70,27);
-        radioButtonM.setBackground(new Color(3,45,48));
+        radioButtonM.setBackground(new Color(44, 44, 44));
         radioButtonM.setFont(new Font("Tahoma", Font.BOLD,14));
         radioButtonM.setForeground(Color.WHITE);
         panel.add(radioButtonM);

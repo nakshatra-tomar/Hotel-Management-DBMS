@@ -70,7 +70,7 @@ public class Login2 extends JFrame implements ActionListener {
         add(b2);
 
 
-        getContentPane().setBackground(new Color(3,45,48));
+        getContentPane().setBackground(new Color(44, 44, 44));
         setLayout(null);
         setLocation(400,270);
         setSize(600,300);

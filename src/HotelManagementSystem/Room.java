@@ -29,7 +29,7 @@ public class Room extends JFrame {
 
         table = new JTable();
         table.setBounds(10,40,500,400);
-        table.setBackground(new Color(3,45,48));
+        table.setBackground(new Color(44,44,44));
         table.setForeground(Color.WHITE);
         panel.add(table);
 

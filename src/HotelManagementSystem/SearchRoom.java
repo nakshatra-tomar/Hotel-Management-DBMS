@@ -68,7 +68,7 @@ public class SearchRoom extends JFrame implements ActionListener {
         checkBox = new JCheckBox("Only Display Available");
         checkBox.setBounds(400,69,205,23);
         checkBox.setForeground(Color.WHITE);
-        checkBox.setBackground(new Color(3,45,48));
+        checkBox.setBackground(new Color(44, 44, 44));
         panel.add(checkBox);
 
         choice = new Choice();
@@ -79,7 +79,7 @@ public class SearchRoom extends JFrame implements ActionListener {
 
         table = new JTable();
         table.setBounds(0,187,700,150);
-        table.setBackground(new Color(3,45,48));
+        table.setBackground(new Color(44, 44, 44));
         table.setForeground(Color.WHITE);
         panel.add(table);
 

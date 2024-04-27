@@ -80,7 +80,7 @@ public class admin extends JFrame implements ActionListener {
         add(label3);
 
 
-        getContentPane().setBackground(new Color(3,45,48));
+        getContentPane().setBackground(new Color(44, 44, 44));
         setLayout(null);
         setSize(1950,1090);
         setVisible(true);
