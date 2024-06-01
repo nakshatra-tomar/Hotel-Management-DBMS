@@ -27,6 +27,8 @@ This project is a hotel management database system implemented with Java Swing f
    - Connect to your MySQL server.
    - Execute the following SQL commands to set up the database and tables:
 
+
+
    ```sql
    CREATE DATABASE hotelMS;
 
