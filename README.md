@@ -103,7 +103,7 @@ This project is a hotel management database system implemented with Java Swing f
 
 
 3. **Clone the Repository:**
-   - Clone this repository to your local machine using git clone <repository-url>.
+   - Clone this repository to your local machine using git clone https://github.com/nakshatra-tomar/Hotel-Management-DBMS.git.
      
 4. **Set Up the Java Application:**
    - Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
